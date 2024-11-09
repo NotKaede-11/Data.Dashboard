@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luxe Horizon Data Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="180x180" href="images/logologo.png">
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="https://notkaede-11.github.io/Latest.Trends/">Home</a></li>
+                    <li><a href="https://notkaede-11.github.io/Latest.Trends/about.html">About</a></li>
+                    <li><a href="https://notkaede-11.github.io/Latest.Trends/faq.html">FAQ</a></li>
+                    <li><a href="https://notkaede-11.github.io/Latest.Trends/contact.html">Contact Us</a></li>
+                    <li><a href="contact.html">Dashboard - Carvajal</a></li>
+                    <li><a href="contact.html">Dashboard - Cartoneros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="dashboard-container">
+        <h2>Luxe Horizon Data Dashboard</h2>
+<div class="analytics-dashboard">
+    <h2>Analytics Overview</h2>
+    <div class="stats-grid">
+        <div class="stats-card" id="categoryStats">
+            <h3>Category Performance</h3>
+            <div class="stats-content"></div>
+        </div>
+        <div class="stats-card" id="engagementStats">
+            <h3>User Engagement</h3>
+            <div class="stats-content"></div>
+        </div>
+        <div class="stats-card" id="conversionStats">
+            <h3>Conversion Metrics</h3>
+            <div class="stats-content"></div>
+        </div>
+        <div class="stats-card" id="geoStats">
+            <h3>Geographic Distribution</h3>
+            <canvas id="geoChart"></canvas>
+        </div>
+    </div>
+</div>
+        <div class="category-section">
+            <h3 class="category-title">Cars</h3>
+            <div class="chart-container">
+                <canvas id="carsChart"></canvas>
+            </div>
+        </div>
+        <div class="category-section">
+            <h3 class="category-title">Handbags</h3>
+            <div class="chart-container">
+                <canvas id="handbagsChart"></canvas>
+            </div>
+        </div>
+        <div class="category-section">
+            <h3 class="category-title">Jewelry</h3>
+            <div class="chart-container">
+                <canvas id="jewelryChart"></canvas>
+            </div>
+        </div>
+        <div class="category-section">
+            <h3 class="category-title">Fashion</h3>
+            <div class="chart-container">
+                <canvas id="fashionChart"></canvas>
+            </div>
+        </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
