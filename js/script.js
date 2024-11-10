@@ -57,9 +57,8 @@ const pageAnalytics = {
         }
     },
     deviceUsage: {
-        desktop: "45%",
-        mobile: "40%",
-        tablet: "15%"
+        desktop: "55%",
+        mobile: "45%",
     },
     peakTrafficHours: {
         weekday: "2PM - 8PM",
